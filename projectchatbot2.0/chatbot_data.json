@@ -1,0 +1,87 @@
+{
+  "initial_greeting": "Hello 👋! I’m your StudyMate AI.\nWhat subject do you want to study — Physics, Math, or Coding?",
+  "fallback": "Hmm 🤔 I didn’t catch that.\nTry saying 'Mechanics', 'Calculus', or type 'resources' for links.",
+  "greetings": [
+    "hi",
+    "hello",
+    "hey"
+  ],
+  "resources": "Here are some great study resources 📚✨\n\n1️⃣ ATC First Year Study Hub:\nhttps://bento.me/atc-first-year\n\n2️⃣ 10CGPA Notes & Practice Platform:\nhttps://10cgpa.vercel.app\n\nBoth have organized notes and materials for B.Tech 1st year! 🚀",
+  "subjects": {
+    "physics": {
+      "aliases": [],
+      "greeting": "Great! Let's dive into Physics 🔬\nTopics: Mechanics, Thermodynamics, Optics, Waves, Electricity.",
+      "topics": {
+        "mechanics": {
+          "description": "Mechanics ⚙️ — Study of motion and forces. (Formula: F = ma).",
+          "link": "https://www.youtube.com/watch?v=-6IgkG5yZfo"
+        },
+        "thermo": {
+          "description": "Thermodynamics 🔥 — Heat and energy relation. (Formula: ΔU = Q - W).",
+          "link": "https://www.youtube.com/watch?v=yNK3x-vZ8hA"
+        },
+        "optic": {
+          "description": "Optics 🔭 — Study of light. (Example: Snell’s Law n₁sinθ₁ = n₂sinθ₂).",
+          "link": "https://www.youtube.com/watch?v=Oh4m8Ees-3Q"
+        },
+        "wave": {
+          "description": "Waves 🌊 — Energy transfer through oscillations. (Formula: v = fλ).",
+          "link": "https://www.youtube.com/watch?v=KWzyQKcJBYg"
+        },
+        "electric": {
+          "description": "Electricity ⚡ — Flow of charge. (Formula: I = V/R).",
+          "link": "https://www.youtube.com/watch?v=gl_WPHDmK8o"
+        }
+      }
+    },
+    "math": {
+      "aliases": [
+        "mathematics"
+      ],
+      "greeting": "Awesome! 📐 Math it is.\nTopics: Algebra, Calculus, Geometry, Probability, Trigonometry.",
+      "topics": {
+        "algebra": {
+          "description": "Algebra ➕ — Equations and expressions using variables.",
+          "link": "https://www.youtube.com/watch?v=i6sbjtJjJ-A"
+        },
+        "calculus": {
+          "description": "Calculus 📈 — Study of change. (Example: d/dx(x²)=2x).",
+          "link": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5"
+        },
+        "geometry": {
+          "description": "Geometry 📐 — Shapes and areas. (Example: Area=½×base×height).",
+          "link": "https://www.youtube.com/watch?v=302eJ3TzJQU"
+        },
+        "probability": {
+          "description": "Probability 🎲 — P(E)=Favorable outcomes / Total outcomes.",
+          "link": "https://www.youtube.com/watch?v=KzfWUEJjG18"
+        },
+        "trigo": {
+          "description": "Trigonometry 📏 — (Example: sin²θ + cos²θ = 1).",
+          "link": "https://www.youtube.com/watch?v=Jsiy4TxgIME"
+        }
+      }
+    },
+    "coding": {
+      "aliases": [
+        "python",
+        "programming"
+      ],
+      "greeting": "Cool! 💻 Let's start coding.\nTopics: Python basics, DSA, OOP concepts.",
+      "topics": {
+        "python": {
+          "description": "Python 🐍 — A high-level programming language. (Example: print('Hello, World!')).",
+          "link": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        },
+        "dsa": {
+          "description": "DSA 📚 — Data structures and algorithms for efficient problem solving.",
+          "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt"
+        },
+        "oop": {
+          "description": "OOP ☕ — Object-Oriented Programming, a paradigm using classes and objects.",
+          "link": "https://www.youtube.com/watch?v=HeW-D6KpDwY"
+        }
+      }
+    }
+  }
+}

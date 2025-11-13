@@ -1,0 +1,11 @@
+🤖 StudyMate: Hello 👋! I’m your StudyMate AI.
+What subject do you want to study — Physics, Math, or Coding?
+
+🧑 You: hello
+🤖 StudyMate: Hello 👋! I’m your StudyMate AI.
+What subject do you want to study — Physics, Math, or Coding?
+
+🧑 You: physics
+🤖 StudyMate: Great! Let's dive into Physics 🔬
+Topics: Mechanics, Thermodynamics, Optics, Waves, Electricity.
+
